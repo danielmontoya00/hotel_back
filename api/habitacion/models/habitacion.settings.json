@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "Habitaciones",
+  "info": {
+    "name": "Habitacion"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "numero": {
+      "type": "string"
+    },
+    "numero_personas": {
+      "type": "integer"
+    },
+    "piso": {
+      "type": "integer"
+    },
+    "tipo": {
+      "type": "enumeration",
+      "enum": [
+        "individual",
+        "doble"
+      ]
+    },
+    "estado": {
+      "type": "enumeration",
+      "enum": [
+        "reservada",
+        "limpia",
+        "ocupada",
+        "sucia"
+      ]
+    }
+  }
+}

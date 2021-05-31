@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "check_ins",
+  "info": {
+    "name": "CheckIn",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "telefono": {
+      "type": "string"
+    },
+    "factura": {
+      "type": "boolean"
+    },
+    "rfc": {
+      "type": "string"
+    },
+    "razon_social": {
+      "type": "string"
+    },
+    "habitacion": {
+      "model": "habitacion"
+    },
+    "checkout": {
+      "type": "datetime"
+    }
+  }
+}

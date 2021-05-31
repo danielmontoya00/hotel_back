@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/habitacions",
+      "handler": "habitacion.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/habitacions/count",
+      "handler": "habitacion.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/habitacions/:id",
+      "handler": "habitacion.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/habitacions",
+      "handler": "habitacion.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/habitacions/:id",
+      "handler": "habitacion.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/habitacions/:id",
+      "handler": "habitacion.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

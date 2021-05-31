@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reservacions",
+  "info": {
+    "name": "Reservacion"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "celular": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "datetime"
+    },
+    "habitaciones": {
+      "type": "integer"
+    },
+    "total": {
+      "type": "decimal"
+    }
+  }
+}
