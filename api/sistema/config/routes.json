@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sistemas",
+      "handler": "sistema.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sistemas/count",
+      "handler": "sistema.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sistemas/:id",
+      "handler": "sistema.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sistemas",
+      "handler": "sistema.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sistemas/:id",
+      "handler": "sistema.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sistemas/:id",
+      "handler": "sistema.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

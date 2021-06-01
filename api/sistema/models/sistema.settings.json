@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sistemas",
+  "info": {
+    "name": "Sistema"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tarifa_base": {
+      "type": "decimal"
+    },
+    "margen_ganancia": {
+      "type": "decimal"
+    }
+  }
+}
