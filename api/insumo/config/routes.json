@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/insumos",
+      "handler": "insumo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/insumos/count",
+      "handler": "insumo.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/insumos/:id",
+      "handler": "insumo.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/insumos",
+      "handler": "insumo.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/insumos/:id",
+      "handler": "insumo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/insumos/:id",
+      "handler": "insumo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

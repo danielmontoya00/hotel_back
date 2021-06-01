@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "insumos",
+  "info": {
+    "name": "Insumo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "tipo": {
+      "type": "enumeration",
+      "enum": [
+        "insumo",
+        "producto"
+      ]
+    },
+    "inventario": {
+      "type": "biginteger"
+    }
+  }
+}
