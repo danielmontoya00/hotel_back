@@ -1,3 +1,3 @@
-# Strapi application
+# Backend hotel
 
-A quick description of your strapi application
+Backend del hotel. Prototipo funcional del sistema de Ingeneria de Requisitos.
